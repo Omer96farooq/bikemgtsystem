@@ -3,7 +3,10 @@ package com.chotay.bikemgtsystem;
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
+/**
+ *
+ * @author omarfarooq
+ */
 public class HibernateUtil {
 
     private static SessionFactory sessionFactory;

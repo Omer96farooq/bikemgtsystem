@@ -12,6 +12,11 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+/**
+ *
+ * @author omarfarooq
+ */
+
 public class MainApp extends Application {
 
     private double xOffset = 0;
