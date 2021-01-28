@@ -1,0 +1,19 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/bikemgtsystem</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <mapping class="com.chotay.bikemgtsystem.entity.Category"/>
+        <mapping class="com.chotay.bikemgtsystem.entity.Employee"/>
+        <mapping class="com.chotay.bikemgtsystem.entity.Invoice"/>
+        <mapping class="com.chotay.bikemgtsystem.entity.Product"/>
+        <mapping class="com.chotay.bikemgtsystem.entity.Purchase"/>
+        <mapping class="com.chotay.bikemgtsystem.entity.Sale"/>
+        <mapping class="com.chotay.bikemgtsystem.entity.Supplier"/>
+    </session-factory>
+</hibernate-configuration>
